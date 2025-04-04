@@ -7,6 +7,7 @@ export function Header() {
       <img
         src={igniteLogo}
         alt="Logo do projeto com pirâmides verdes verticais, tamanho: médio"
+        className={styles.rotateLogo}
       />
     </header>
   );
