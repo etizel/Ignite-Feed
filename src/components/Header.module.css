@@ -14,6 +14,7 @@
   height: 2rem;
   transition: transform 0.3s ease;
   animation: swingLogo 3s ease-in-out infinite;
+  cursor: pointer;
 }
 
 .header img:hover {

@@ -9,6 +9,7 @@ export function Header() {
         alt="Logo do projeto com pirâmides verdes verticais, tamanho: médio"
         className={styles.rotateLogo}
       />
+      <h1>ignite</h1>
     </header>
   );
 }
