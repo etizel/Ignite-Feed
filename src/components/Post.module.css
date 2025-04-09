@@ -2,7 +2,6 @@
   background: var(--gray-800);
   border-radius: 8px;
   padding: 2.5rem;
-
 }
 
 .post + .post {
@@ -48,7 +47,6 @@ justify-content: space-between;
   display: grid;
   grid-template-columns: 1fr;  
 }
-
 
 .authorInfo strong {
   display: block;

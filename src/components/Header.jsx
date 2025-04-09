@@ -6,7 +6,7 @@ export function Header() {
     <header className={styles.header}>
       <img
         src={igniteLogo}
-        alt="Logo do projeto com pirâmides verdes verticais, tamanho: médio"
+        alt="Logo do projeto com pirâmides verdes verticais, tamanho: grande"
         className={styles.rotateLogo}
       />
       <h1>ignite</h1>

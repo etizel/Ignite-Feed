@@ -30,7 +30,7 @@ export function Post() {
           anuncio a adição mais recente ao meu portfólio de desenvolvimento: uma
           experiência musical imersiva inspirada na interface do Spotify.
         </p>
-        👉 <a href="etizel.com">etizel.com</a>
+
         <br />
         <p>
           <a href="">#novoprojeto</a>
