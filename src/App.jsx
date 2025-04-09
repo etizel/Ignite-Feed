@@ -11,7 +11,7 @@ const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://xsgames.co/randomusers/assets/avatars/male/74.jpg',
+      avatarUrl: 'https://avatars.githubusercontent.com/u/72351181?v=4',
       name: 'Etizel Azevedo',
       role: 'Developer Full Stack',
     },
@@ -29,9 +29,9 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://xsgames.co/randomusers/assets/avatars/male/52.jpg',
-      name: 'Etizel Azevedo',
-      role: 'Developer Full Stack',
+      avatarUrl: 'https://xsgames.co/randomusers/assets/avatars/male/21.jpg',
+      name: 'Franklin Nunes',
+      role: 'CTO',
     },
     content: [
       { type: 'paragraph', content: 'Falaaa Galera!' },
