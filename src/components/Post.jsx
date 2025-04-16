@@ -4,12 +4,19 @@ import styles from './Post.module.css';
 import { Comment } from './Comment';
 import { Avatar } from './Avatar';
 
+const coments = [1, 2, 3];
+
 export function Post({ author, publishedAt, content }) {
-  const publishedFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mmh");
+  const publishedFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'");
 
   const publishDateRelativeNow = formatDistanceToNow(publishedAt, {
     addSuffix: true,
   });
+
+  function handleCreateNewComment() {
+    event.preventDefault();
+    console.log('test');
+  }
 
   return (
     <article className={styles.post}>
@@ -40,15 +47,15 @@ export function Post({ author, publishedAt, content }) {
         })}
       </div>
 
-      <form className={styles.commentForm}>
+      <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
         <strong>Deixe seu Feedback</strong>
         <textarea placeholder="Deixe um comentário" />
         <button type="submit">Comentar</button>
       </form>
       <div className={styles.commentList}>
-        <Comment />
-        <Comment />
-        <Comment />
+        {coments.map((coment) => {
+          return <Comment />;
+        })}
       </div>
     </article>
   );
