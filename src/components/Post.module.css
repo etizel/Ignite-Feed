@@ -105,7 +105,12 @@ textarea::placeholder {
   transition: 0.2s;
 }
 
-.commentForm button[type=submit]:hover {
+.commentForm button:disabled[type=submit] {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.commentForm button[type=submit]:not(:disabled)hover {
   background: rgb(35, 167, 18);
 }
 .commentList {
